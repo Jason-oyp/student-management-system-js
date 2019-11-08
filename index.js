@@ -204,7 +204,7 @@ function createStore() {
         if (!data) {
             data = {};
         }
-        var result = saveData('http://api.duyiedu.com' + url, Object.assign(data, {
+        var result = saveData('https://open.duyiedu.com' + url, Object.assign(data, {
             "appkey": '1209899252ze_1554110339699'
         }));
         if (result.status == 'success') {
